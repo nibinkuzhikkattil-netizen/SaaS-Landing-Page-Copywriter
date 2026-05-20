@@ -1,0 +1,45 @@
+positioning_task:
+  description: >
+    Analyze the SaaS product description:
+    {product_description}
+
+    Define:
+    - Ideal customer profile
+    - Core pain points
+    - Main value proposition
+    - Unique positioning angle
+
+  expected_output: >
+    A detailed SaaS positioning strategy document.
+
+  agent: positioning_strategist
+
+
+copywriting_task:
+  description: >
+    Using the positioning strategy,
+    write complete SaaS landing page copy including:
+
+    - Hero headline
+    - Hero subheadline
+    - Features section
+    - Social proof placeholders
+    - FAQ section
+
+  expected_output: >
+    Complete SaaS landing page copy in markdown format.
+
+  agent: copy_writer
+
+
+cta_task:
+  description: >
+    Generate:
+    - 5 CTA button variations
+    - Reasoning behind each CTA
+    - A/B testing suggestions
+
+  expected_output: >
+    CTA optimization suggestions with testing ideas.
+
+  agent: cta_optimizer
